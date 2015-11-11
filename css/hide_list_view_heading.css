@@ -1,0 +1,5 @@
+/* Add this in your theme's stylesheet */
+.simcal-current {
+    /* We use visibility here instead of display so that the spacing between the next/prev buttons is retained. */
+    visibility: hidden !important;
+}
