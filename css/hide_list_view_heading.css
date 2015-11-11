@@ -1,5 +1,19 @@
 /* Add this in your theme's stylesheet */
+
+/* All calendars */
 .simcal-current {
+    /* We use visibility here instead of display so that the spacing between the next/prev buttons is retained. */
+    visibility: hidden !important;
+}
+
+/* List view only */
+.simcal-calendar-list .simcal-current {
+    /* We use visibility here instead of display so that the spacing between the next/prev buttons is retained. */
+    visibility: hidden !important;
+}
+
+/* Grid view only */
+.simcal-calendar-grid .simcal-current {
     /* We use visibility here instead of display so that the spacing between the next/prev buttons is retained. */
     visibility: hidden !important;
 }
