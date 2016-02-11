@@ -1,0 +1,13 @@
+# PhpStorm
+.idea
+
+# Sublime
+*.sublime-project
+*.sublime-workspace
+
+# Mac crap
+.DS_Store
+
+# Windows crap
+ehthumbs.db
+Thumbs.db
